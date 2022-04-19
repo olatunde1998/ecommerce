@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    color:hsl(219, 9%, 45%);
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+#overall{
+    background-color: hsl(0, 0%, 100%);
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(219, 9%, 45%);
+    height: 70px
+}
+.hamburger-brandName{
+    display: flex;
+    justify-content: space-around;
+}
+.hamburger{
+    /*border: 2px solid red;*/
+    margin-left: 20px;
+    margin-right: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.bar1,.bar2,.bar3{
+    width: 25px;
+    height: 2px;
+    background-color: hsl(0, 0%, 0%);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.brandName{
+    color: hsl(0, 0%, 0%);
+    font-size: 16px;
+    padding-top: 15px;
+}
+.avatar-cart{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+.cart{
+    margin-top: 10px;
+}
+.avatar{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.suggestion-image{
+    display: none; 
+    margin-top: 24px;
+    width: 530px;
+}
+.section-two{
+    /*border: 2px solid red;*/
+    padding: 20px;
+}
+.sneakercompany{
+    font-size: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: hsl(26, 100%, 55%);
+}
+.edition{
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 20px;
+}
+.paragraph{
+    font-size: 16px;
+    line-height: 24px;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 20px;
+
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.amount-discount{
+    display: flex;
+}
+.amount{
+    color: hsl(0, 0%, 0%);
+}
+.discount{
+    margin-left: 20px;
+}
+button{
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    border: none;
+    background-color: hsl(25, 100%, 94%);
+}
+.amount-cancel{
+    font-size: 14px;
+    color: hsl(219, 9%, 45%);
+    margin-right: 20px;
+}
+.add-subtract{
+    /*border: 2px solid green;*/
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 12px;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+.add,.subtract{
+    font-size: 18px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    margin-top: 15px;
+}
+.count{
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.addtocart-cartlogo{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 12px;
+    height: 50px;
+    margin-top: 30px;
+}
+.cartlogo{
+    margin-top: 15px;
+}
+.addtocart{
+    margin-top: 18px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+/*.header{
+    border-bottom: 3px solid white;
+    justify-self: center;
+}*/
+
+
+@media only screen and (min-width: 1440px){
+    
+    #navBar{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: hsl(0, 0%, 100%);
+        border-bottom: 2px solid hsl(220, 5%, 88%);
+        height: 90px;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 20px;
+        
+        width: 1100px;
+        
+        
+    }
+    .list{
+        /*border: 2px solid blue;*/
+        color: hsl(0, 0%, 0%);
+        margin-left: 60px;
+        margin-top: 7px;
+        padding: 20px;
+        width: 450px;
+        display: flex;
+      
+               
+    }
+    li{
+        list-style: none;
+       
+        margin-top: 20px;
+        color:hsl(0, 0%, 0%);
+        display: contents;
+        font-size: 18px;
+        
+        
+    }
+    
+    .collections,.men,.women,.about,.contact{
+        margin-right: 30px;
+        color: black;
+        /*border: 2px solid red;*/
+        cursor: pointer;
+        
+        
+    }
+    .hamburger-brandName{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hamburger{
+        /*border: 2px solid red;*/
+        margin-left: 20px;
+        margin-right: 15px;
+        padding-top: 15px;
+        display: none;
+    }
+    .bar1,.bar2,.bar3{
+        width: 25px;
+        height: 2px;
+        background-color: hsl(0, 0%, 0%);
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .brandName{
+        color: hsl(0, 0%, 0%);
+        font-size: 16px;
+        padding-top: 15px;
+        
+    }
+    img{
+        border-radius: 15px;
+    }
+    .avatar-cart{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        /*border: 2px solid blue;*/
+        /*margin-right: 200px;*/
+    }
+    .cart{
+        margin-top: 15px;
+    }
+    .avatar{
+        width: 40px;
+        
+        margin-left: 35px;
+        
+    }
+   
+    .fullsection{
+        display: flex;
+        justify-content:center;
+        padding: 50px;
+        /*border: 2px solid red;*/
+        margin-top: 40px;
+    }
+    .slidingimage{
+        width: 500px;
+        margin-right: 20px;
+    }
+    .suggestion-image{
+        display: flex; 
+        margin-top: 24px;
+        width: 530px;
+    }
+    .productimage{
+        margin-right: 30px;
+    }
+    .section-two{
+        /*border: 2px solid rgb(27, 21, 204);*/
+        padding-left: 80px;
+        /*padding-right: 200px;*/
+        width: 500px;
+        height: 500px;
+        margin-top: 30px;
+    }
+
+
+
+
+  
+
+   }
